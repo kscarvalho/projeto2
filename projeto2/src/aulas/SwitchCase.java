@@ -1,6 +1,6 @@
 package aulas;
 
-public @interface SwitchCase {
+public class SwitchCase {
 	
 	public static void main(String[] args) {
 		
@@ -13,5 +13,22 @@ public @interface SwitchCase {
 		
 		media = (nota1 + nota2 + nota3 + nota4) / 4;
 		
+		/* Switch Case: Operações Exatas*/
+		int dia = 3;
+		switch (dia) {
+		case 1:
+			System.out.println(" Domingo ");
+			break;
+		case 2:	
+			System.out.println(" Segunda Feira ");
+			break;
+		case 3:	
+			System.out.println(" Terça Feira ");
+			break;	
+
+		default: System.out.println(" Outro dia qualquer ");
+			break;
+		}
 		
+	}	
 }
