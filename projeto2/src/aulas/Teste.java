@@ -12,10 +12,11 @@ public class Teste {
 		 scan = new Scanner(System.in);
          
          System.out.printf("Qual é seu nome ?");
+         nome = ler.nextLine();
   
-		 String nome = scan.next(), nome1 = scan.next();
+		 String nome = scan.next();
          
-         System.out.printf("Bem vindo ao Java, " + nome + nome1);
+         System.out.printf("Bem vindo ao Java, \"%s\".\n\",  nome);
          
         	        
         	}
